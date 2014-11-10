@@ -1,0 +1,1 @@
+var BV=new $.BigVideo;BV.init(),Modernizr.touch?BV.show("video-poster.jpg"):BV.show("http://player.vimeo.com/external/103934218.hd.mp4?s=832a4bf7caa039990acb9a25357b3239",{ambient:!0});var $win=$(window),winHeight=$win.height(),$mainContent=$("main");$mainContent.css({"margin-top":winHeight-100});
